@@ -18,6 +18,7 @@ return require('packer').startup(function(use)
   use 'nvim-tree/nvim-web-devicons'
   use 'nvim-lualine/lualine.nvim'
   use 'nvim-treesitter/nvim-treesitter'
+  use 'windwp/nvim-autopairs'
   use {
     'nvim-telescope/telescope.nvim',
     tag = '0.1.5',
